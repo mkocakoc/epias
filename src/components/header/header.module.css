@@ -1,0 +1,36 @@
+.Header {
+  background: linear-gradient(135deg, rgb(15, 35, 132) 0%, rgb(66, 69, 87) 100%);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+.Header .rightArea {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.Header .rightArea .workArea {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.Header .rightArea .userArea {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.Header .rightArea .userArea .text {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.Header .rightArea .icon {
+  font-size: 1rem;
+}
+.Header .rightArea .icon img {
+  filter: invert(1);
+}/*# sourceMappingURL=header.module.css.map */

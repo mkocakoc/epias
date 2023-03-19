@@ -1,0 +1,41 @@
+.optionsComponent {
+  display: flex;
+  justify-content: end;
+}
+.optionsComponent .optionsArea {
+  display: flex;
+  flex-direction: column;
+  background: #dbddb6;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 33%;
+  margin: 1rem;
+  border: 2px solid #000;
+  font-size: 1rem;
+  overflow: auto;
+}
+.optionsComponent .optionsArea .optionsMain {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: flex-start;
+}
+.optionsComponent .optionsArea .optionsMain .optionsRow {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-bottom: 0.2rem;
+  font-family: monospace;
+}
+.optionsComponent .optionsArea .optionsMain .optionsRow h5 {
+  margin: 0;
+  font-size: 1rem;
+}
+.optionsComponent .optionsArea .optionsMain .optionsRow .optionsRowTitle {
+  font-weight: 800;
+  font-size: 1rem;
+}
+.optionsComponent .optionsArea .optionsMain .optionsRow .optionsRowValue {
+  font-weight: 400;
+  font-size: 1rem;
+}/*# sourceMappingURL=OptionsComponent.module.css.map */
